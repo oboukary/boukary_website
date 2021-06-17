@@ -1,0 +1,35 @@
+# Navigation Links
+#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
+#     desired widget in your `content/home/` folder.
+#   The weight parameter defines the order that the links will appear in.
+
+main:
+  - name: Accueil
+    url: '#about'
+    weight: 10
+  - name: Blog
+    url: 'post/'
+    weight: 20
+  - name: Projets
+    url: 'projects/'
+    weight: 30
+  - name: Contact
+    url: 'contact/'
+    weight: 40
+  - identifier: dev
+    name: CV
+    weight: 50
+  - identifier: cv_pdf
+    name: Format pdf
+    url: /uploads/demo_resume.pdf
+    parent: dev
+    weight: 51
+  - identifier: cv_en_ligne
+    name: Version en ligne 
+    url: https://ouedraogoboukary.netlify.app/
+    parent: dev
+    weight: 52
+  
+  
+ 
+    
