@@ -1,0 +1,39 @@
+/* Clipboard --------------------------*/
+
+.hasCopyButton {
+  position: relative;
+}
+
+.btn-copy-ex {
+  position: absolute;
+  right: 0;
+  top: 0;
+  visibility: hidden;
+
+}
+
+.hasCopyButton:hover button.btn-copy-ex {
+  visibility: visible;
+}
+
+.btn-copy-ex {
+  background-color: #427fbd !important;
+}
+
+.btn-copy-ex:hover,
+.btn-copy-ex:focus,
+.btn-copy-ex:active:hover {
+  background-color: #427fbd !important;
+  border-color: #427fbd !important;
+  border-color: #427fbd  !important;
+}
+
+
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+  background-color: #427fbd !important;
+  border-color: #427fbd !important;
+  color: white;
+}
+

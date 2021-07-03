@@ -5,7 +5,7 @@ theme: "starter-hugo-academic"
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: Boukary Ouedraogo # Website name
-baseurl: '' # Website URL
+baseurl: 'https://www.oboukary.com' # Website URL
 copyright: '© {year} Boukary Ouedraogo' # Footer text, e.g. '© {year} Me'
 
 ############################
@@ -53,10 +53,17 @@ markup:
     renderer:
       unsafe: true
   highlight:
-    codeFences: false
-  tableOfContents:
-    startLevel: 2
-    endLevel: 3
+    codeFences: true
+    guessSyntax: true
+    hl_Lines: ""
+    lineNoStart: 1
+    lineNos: false
+    lineNumbersInTable: true
+    noClasses: true
+    style: "pygments"
+    tabWidth: 4
+pygmentsUseClasses: true
+pygmentsCodefences: true
 imaging:
   resampleFilter: lanczos
   quality: 75

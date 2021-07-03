@@ -33,12 +33,18 @@ subtitle = ""
     tag =  "Python"
     
   [[content.filter_button]]
+    name = "SAS"
+    tag =  "SAS"
+  [[content.filter_button]]
     name = "Data science"
     tag =  "Data science"
 
   [[content.filter_button]]
     name = "Machine learning"
     tag = "Machine learning"
+  [[content.filter_button]]
+    name = "Deep learning & IA"
+    tag = "Deep learning"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.

@@ -21,14 +21,13 @@ main:
     weight: 50
   - identifier: cv_pdf
     name: Format pdf
-    url: /uploads/demo_resume.pdf
+    url: /uploads/cv.pdf
     parent: dev
-    weight: 51
   - identifier: cv_en_ligne
     name: Version en ligne 
     url: https://ouedraogoboukary.netlify.app/
     parent: dev
-    weight: 52
+
   
   
  
