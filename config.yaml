@@ -12,7 +12,7 @@ copyright: '© {year} Boukary Ouedraogo ' # Footer text, e.g. '© {year} Me'
 ## LANGUAGE
 ############################
 
-defaultContentLanguage: Sfr
+defaultContentLanguage: fr
 hasCJKLanguage: false
 defaultContentLanguageInSubdir: false
 removePathAccents: true
