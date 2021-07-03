@@ -6,7 +6,7 @@ theme: "starter-hugo-academic"
 
 title: Boukary Ouedraogo # Website name
 baseurl: 'https://www.oboukary.com/' # Website URL
-copyright: '© {year} Boukary Ouedraogo' # Footer text, e.g. '© {year} Me'
+copyright: '© {year} Boukary Ouedraogo ' # Footer text, e.g. '© {year} Me'
 
 ############################
 ## LANGUAGE
