@@ -17,16 +17,10 @@ main:
     url: 'contact/'
     weight: 40
   - identifier: dev
-    name: CV
+    name: CV en ligne
     weight: 50
-  - identifier: cv_pdf
-    name: Format pdf
-    url: /uploads/cv.pdf
-    parent: dev
-  - identifier: cv_en_ligne
-    name: Version en ligne 
     url: https://ouedraogoboukary.netlify.app/
-    parent: dev
+
 
   
   

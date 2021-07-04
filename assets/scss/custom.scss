@@ -52,6 +52,34 @@ a:hover {
 /* from Desiree: https://github.com/dcossyleon/blogdown_desiree/blob/master/assets/scss/custom.scss */
 
 /* stroke */
+/* stroke */
+
+a.nav-link,
+a.nav-link:after,
+a.nav-link:before {
+  transition: all .5s;
+}
+
+a.nav-link {
+  position: relative;
+}
+
+a.nav-link:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.'; /* make invisible, dot beneath links */
+  color: transparent;
+  background: #351085;
+  height: 2px;
+}
+
+a.nav-link:hover:after {
+  width: 80%;
+}
 
 /* home page */
 
