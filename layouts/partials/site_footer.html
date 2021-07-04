@@ -10,17 +10,14 @@
     </div>
   {{ end }}
 
-
+  
   {{ with site.Copyright }}
-  <p class="powered-by">
+<p class="powered-by">
     {{ replace . "{year}" now.Year | markdownify }}
-
+</p>
+<p class="powered-by">
+ Réalisé avec  <a href="https://github.com/oboukary/boukary_website"> <i class="fas fa-code-branch"></i></a>, le template <a href="https://wowchemy.com/docs/getting-started/customization/"> Wowchemy academic</a> et le package <a href="https://bookdown.org/yihui/blogdown/"> blogdown</a> de <a href="https://www.r-project.org/"><i class="fab fa-r-project"></i></a>
   {{ end }}
-
-  {{/* Display copyright license. */}}
-  {{ partial "site_footer_license" . }}
- , réalisé avec <i class="fas fa-heart"></i>, le package <a href="https://cran.r-project.org/web/packages/blogdown/index.html"> blogdown de  <i class="fab fa-r-project"></i></a> et le template <a href="https://wowchemy.com/templates/"> Wowchemy</a>
-
-
+  
   </p>
 </footer>

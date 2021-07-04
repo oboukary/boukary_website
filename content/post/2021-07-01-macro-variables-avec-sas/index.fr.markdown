@@ -39,9 +39,18 @@ proc print data=sashelp.cars;
 var test;
 title 'bonjour';
 run;
+***********************************************************************************;
+*                          MACRO PROGRAMME                                        *;
+***********************************************************************************;
 %macro test;
+%do i=1 %to 10;
+proc print data= sashelp.cars;
+var make&i;
+run;
 %mend;
+%test
 ```
+
 `
 
 

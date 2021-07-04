@@ -52,6 +52,7 @@ main_menu:
   highlight_active_link: true
 
 # Localization
+languageCode: fr-fr
 
 date_format: 'Jan 2, 2006'
 time_format: '3:04 PM'
