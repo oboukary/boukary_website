@@ -44,7 +44,7 @@ contact_links:
 
 main_menu:
   enable: true
-  align: m
+  align: c
   show_logo: false
   show_language: false
   show_day_night: false
