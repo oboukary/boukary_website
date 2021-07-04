@@ -1,52 +1,52 @@
 ---
-bio: My research interests include distributed robotics, mobile computing and programmable
+bio: Je m'intéresse à la statistique et à l'intelligence artificielle et leurs applications aux domaines de l'économie et de la finance.
   matter.
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
+  - course: Master en modélisation prospective
+    institution: Université Paris Saclay
+    year: 2017
+  - course: Diplôme d'ingénieur en statistique et économie-appliquée
+    institution: Institut National de Statistique et d'Economie Appliquée
+    year: 2015
+  - course: DEUG en mathématiques
+    institution: Université Ibn Tofail
     year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
 email: ""
-highlight_name: false
+highlight_name: true
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Data science
+- Machine learning
+- Deep learning
+- Finance
+- Economie
+- Programmation
 organizations:
-- name: Stanford University
-  url: https://www.stanford.edu/
-role: Professor of Artificial Intelligence
+- name: CCMSA
+  url: https://www.msa.fr/lfy/organisation/conseil-administration-ccmsa
+role: Statisticien | Data scientist
 social:
 - icon: envelope
   icon_pack: fas
   link: /#contact
 - display:
-    header: true
+    header: false
   icon: twitter
   icon_pack: fab
-  label: Follow me on Twitter
-  link: https://twitter.com/GeorgeCushen
-- icon: graduation-cap
-  icon_pack: fas
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  label: Suivez-moi sur Twitter
+  link: https://twitter.com/Boukary16
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/oboukary
 - icon: linkedin
   icon_pack: fab
-  link: https://www.linkedin.com/
-superuser: false
-title: Nelson Bighetti
+  link: https://www.linkedin.com/in/oboukary/
+superuser: true
+title: Boukary Ouedraogo
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+<p>Actuellement data scientist à la caisse centrale de la mutualité sociale agricole(CCMSA), je suis passionné par les sciences de la donnée et l'intelligence artificielle. Doué d'une grande capacité à apprendre en autodidacte, je me forme pendant mes temps libres pour continuer de progresser sur ces sujets.  
+Je maîtrise les langages <strong>R, Python, SAS, SQL</strong> ainsi que tous les librairies populaires de l'univers de la data tels que <strong> tidyverse, numpy, pandas, scikit-learn, pytorch, scipy, tensorflow, git,...</strong>
+</p>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
-
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Télécharger mon {{< staticref "uploads/cv.pdf" "newtab" >}}CV{{< /staticref >}}.
