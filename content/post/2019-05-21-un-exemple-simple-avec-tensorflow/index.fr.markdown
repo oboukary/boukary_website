@@ -3,7 +3,6 @@ title: Un Exemple Simple Avec Tensorflow
 author: Boukary Ouedraogo
 date: '2019-05-21'
 slug: un-exemple-simple-avec-tensorflow
-draft: true
 categories:
   - Tensorflow
 tags:
