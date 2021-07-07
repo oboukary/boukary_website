@@ -10,6 +10,8 @@ day_night: true
 font: 'boukary'
 font_size: m
 
+logo: "logo.png"
+
 # SEO
 
 site_type: Person
@@ -45,9 +47,9 @@ contact_links:
 main_menu:
   enable: true
   align: c
-  show_logo: false
+  show_logo: true
   show_language: false
-  show_day_night: false
+  show_day_night: true
   show_search: true
   highlight_active_link: true
 
@@ -68,7 +70,7 @@ highlight_languages:
   - sas
 highlight_style: "tomorrow"
 math: true
-diagram: false
+diagram: true
 privacy_pack: false
 edit_page:
   repo_url: ''
@@ -129,7 +131,7 @@ search:
     app_id: ''
     api_key: ''
     index_name: ''
-    show_logo: false
+    show_logo: true
 map:
   provider: 
   api_key: ''

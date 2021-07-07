@@ -44,6 +44,7 @@ permalinks:
   categories: '/category/:slug/'
   publication_types: '/publication-type/:slug/'
 disableAliases: true
+math: true
 outputs:
   home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
   section: [HTML, RSS]
@@ -83,3 +84,4 @@ related:
       weight: 100
     - name: categories
       weight: 70
+  logo: "logo.png"
