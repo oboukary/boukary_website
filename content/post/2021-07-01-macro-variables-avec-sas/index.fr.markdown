@@ -18,7 +18,11 @@ image:
   focal_point: ''
   preview_only: no
 projects: []
+output:
+  blogdown::html_page:
+    toc: true
 ---
+## Qu'est ce qu'une macro-variable ?
 Les macro-variables dans **SAS** permettent de substituer du texte dans un programme SAS.
 Ils facilitent ainsi la programmation en évitant la répétition du code et le copier-coller.
 Ils facilent aussi la maintenance des programmes SAS ainsi que la lecture.
@@ -28,6 +32,9 @@ Il existe trois façons de créer des macro-variables dans un programme SAS:
 <li> Avec la routine <strong>call symputx </strong></li>
 <li> Dans une procédure <strong>PROC SQL </strong> </li>
 </ol>
+
+## Examples 
+### Dans une procédure SQL
 
 ```sas
 proc sql noprint;
@@ -51,7 +58,8 @@ run;
 %test
 ```
 
-`
+
+
 
 
 

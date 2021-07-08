@@ -7521,7 +7521,7 @@ div.alert a {
  *  Page content
  **************************************************/
 .article-container {
-  max-width: 900px;
+  max-width: 960px;
   padding: 0 20px 0 20px;
   margin: 0 auto 0 auto;
   text-align: justify; }
@@ -8358,7 +8358,7 @@ summary:focus {
  *  Documentation layout
  **************************************************/
 .docs-article-container {
-  max-width: 760px; }
+  max-width: 960px; }
 
 /* Documentation: article footer. */
 .docs .body-footer {
@@ -9756,6 +9756,13 @@ iframe {
   color: #3b72d1;
   line-height: 0.8em; }
 
+#TableOfContents {
+  text-align: left; }
+
+#TableOfContents, .docs-toc-title {
+  border-left: 1px solid #1565c0;
+  /* "$sta-primary" is the primary colour from the theme (sass/scss) */ }
+
 /* Background */
 /* Other */
 /* Error */
@@ -10073,7 +10080,11 @@ iframe {
 .chroma .w {
   color: #bbbbbb; }
 
-/* SAS SAS SAS SAS  SAS  SAS SAS */
+/**********************************************************************/
+/*                                                                    */
+/*  SAS -- SAS -- SAS -- SAS -- SAS -- SAS -- SAS                     */
+/*                                                                    */
+/**********************************************************************/
 /* Background */
 /* Other */
 /* Error */

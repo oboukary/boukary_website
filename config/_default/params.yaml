@@ -10,7 +10,6 @@ day_night: true
 font: 'boukary'
 font_size: m
 
-logo: "logo.png"
 
 # SEO
 
@@ -49,13 +48,12 @@ main_menu:
   align: c
   show_logo: true
   show_language: false
-  show_day_night: true
+  show_day_night: false
   show_search: true
   highlight_active_link: true
 
 # Localization
 languageCode: fr-fr
-
 date_format: 'Jan 2, 2006'
 time_format: '3:04 PM'
 address_format: en-us

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data science | Boukary Ouedraogo</title>
+    <link>https://www.oboukary.com/category/data-science/</link>
+      <atom:link href="https://www.oboukary.com/category/data-science/index.xml" rel="self" type="application/rss+xml" />
+    <description>Data science</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>fr-fr</language><copyright>© 2021 Boukary Ouedraogo </copyright><lastBuildDate>Tue, 06 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://www.oboukary.com/media/logo.svg</url>
+      <title>Data science</title>
+      <link>https://www.oboukary.com/category/data-science/</link>
+    </image>
+    
+    <item>
+      <title>Anova Avec SAS</title>
+      <link>https://www.oboukary.com/post/anova-avec-sas/</link>
+      <pubDate>Tue, 06 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://www.oboukary.com/post/anova-avec-sas/</guid>
+      <description>
+&lt;script src=&#34;https://www.oboukary.com/post/anova-avec-sas/index.fr_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\gamma_{n} = \frac{ 
+\left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T 
+\left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}
+{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;`&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

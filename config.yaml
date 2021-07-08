@@ -63,6 +63,9 @@ markup:
     noClasses: true
     style: "pygments"
     tabWidth: 4
+  tableOfContents:
+    startLevel: 2
+    endLevel: 3
 pygmentsUseClasses: true
 pygmentsCodefences: true
 imaging:
@@ -84,4 +87,4 @@ related:
       weight: 100
     - name: categories
       weight: 70
-  logo: "logo.png"
+
