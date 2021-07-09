@@ -347,3 +347,8 @@ text-align: left;
   /* "$sta-primary" is the primary colour from the theme (sass/scss) */
 }
 
+pre.chroma {padding-left: 1em;
+            padding-top: 0.5em;
+            padding-bottom: 1em;
+            padding-right: 0.5em;
+}

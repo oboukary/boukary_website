@@ -3,3 +3,27 @@
 
 {{/* This partial is included in `themes/academic/layouts/partials/site_head.html`. */}}
 
+<!-- jquery --><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha256-nuL8/2cJ5NDSSwnKD8VqreErSWHtnEP9E7AySL+1ev4=" crossorigin="anonymous"></script>
+
+<!-- Font Awesome icons --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/v4-shims.min.css" integrity="sha256-wZjR52fzng1pJHwx4aV2AO3yyTOXrcDW7jBpJtTwVxw=" crossorigin="anonymous">
+
+<!-- clipboard.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js" integrity="sha256-FiZwavyI2V6+EXO1U+xzLG3IKldpiTFf3153ea9zikQ=" crossorigin="anonymous"></script>
+
+
+{{ $copyjs := resources.Get "js/copyButton.js" | resources.Minify }}
+{{- if (eq (getenv "HUGO_ENV") "production") -}}
+  {{ $copyjs = $copyjs | fingerprint "md5" }}
+{{ end }}
+<script src="{{ $copyjs.RelPermalink }}"></script>
+
+{{ $copycss := resources.Get "css/copyButton.css" | resources.Minify }}
+{{- if (eq (getenv "HUGO_ENV") "production") -}}
+  {{ $copycss = $copycss | fingerprint "md5" }}
+{{ end }}
+<link rel="stylesheet" href="{{ $copycss.RelPermalink }}">
+
+

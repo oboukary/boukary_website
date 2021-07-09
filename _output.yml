@@ -1,2 +1,5 @@
 output:
   blogdown::html_page
+pandoc_args: [
+      "--metadata", "lang:fr", "--columns=1000",
+    ]
