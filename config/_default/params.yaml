@@ -8,7 +8,7 @@
 theme: minimal
 day_night: true
 font: 'boukary'
-font_size: m
+font_size: s
 
 
 # SEO
@@ -124,7 +124,7 @@ comments:
   commento:
     url: ''
 search:
-  provider: wowchemy
+  provider: algolia
   algolia:
     app_id: ''
     api_key: ''

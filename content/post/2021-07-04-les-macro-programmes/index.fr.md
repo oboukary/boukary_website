@@ -15,6 +15,9 @@ image:
   focal_point: ''
   preview_only: no
 projects: []
+output:
+  blogdown::html_page:
+    toc: false
 ---
 
 Les macro-variables dans **SAS** permettent de substituer du texte dans un programme SAS.

@@ -2,6 +2,30 @@
 
 /*   */
 
+
+ /* IMPORT FONTS */
+
+@font-face {
+  font-family: 'SourceCodePro';
+  font-style: normal;
+  font-weight: normal;
+  src: url(/fonts/SourceCodePro-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'SourceCodePro';
+  font-style: normal;
+  font-weight: bold;
+  src: url(/fonts/SourceCodePro-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'SourceCodePro';
+  font-style: italic;
+  font-weight: normal;
+  src: url(/fonts/SourceCodePro-Italic.ttf) format('truetype');
+}
+
+
+
 /* Whole document: */
 
 body {
@@ -351,4 +375,40 @@ pre.chroma {padding-left: 1em;
             padding-top: 0.5em;
             padding-bottom: 1em;
             padding-right: 0.5em;
+}
+
+pre {
+  word-wrap: normal;
+  word-break: normal;
+  border: 1px solid #eee;
+}
+
+pre, code {
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+pre code {
+  overflow: auto;
+  word-wrap: normal;
+  white-space: pre;
+}
+
+pre .img {
+  margin: 5px 0;
+}
+
+pre .img img {
+  background-color: #fff;
+  display: block;
+  height: auto;
+}
+
+code a, pre a {
+  color: #375f84;
+}
+
+
+button.btn.btn-primary{
+  border-radius: 0.22em;
 }

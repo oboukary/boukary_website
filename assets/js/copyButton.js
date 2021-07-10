@@ -8,11 +8,11 @@
 
   if(ClipboardJS.isSupported()) {
     $(document).ready(function() {
-      var copyButton = "<button type='button' class='btn btn-primary btn-copy-ex' type = 'submit' title='Copier dans le presse-papier' aria-label='Copier dans le presse-papier' data-toggle='tooltip' data-placement='left' data-trigger='hover' data-clipboard-copy><i class='fa fa-copy'></i></button>";
+      var copyButton = "<button type='button' class='btn btn-primary btn-copy-ex' type = 'submit' title='Copier dans le presse-papier' aria-label='Copier dans le presse-papier' data-toggle='tooltip' data-placement='left' id='tooltip-left' data-trigger='hover' data-clipboard-copy><i class='far fa-copy'></i></button>";
       
        $(".chroma").wrap("<div class='sourceCode'> </div>");
-
-      $(".examples, div.sourceCode").addClass("hasCopyButton");
+       $("pre, code").addClass("sourceCode");
+      $("div.sourceCode").addClass("hasCopyButton");
       // Insert copy buttons:
       $(copyButton).prependTo(".hasCopyButton");
 
