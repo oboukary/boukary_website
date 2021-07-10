@@ -10012,31 +10012,31 @@ button.btn.btn-primary {
 
 /* LiteralNumber */
 .chroma .m {
-  color: #666666; }
+  color: #008000; }
 
 /* LiteralNumberBin */
 .chroma .mb {
-  color: #666666; }
+  color: #008000; }
 
 /* LiteralNumberFloat */
 .chroma .mf {
-  color: #666666; }
+  color: #008000; }
 
 /* LiteralNumberHex */
 .chroma .mh {
-  color: #666666; }
+  color: #008000; }
 
 /* LiteralNumberInteger */
 .chroma .mi {
-  color: #666666; }
+  color: #008000; }
 
 /* LiteralNumberIntegerLong */
 .chroma .il {
-  color: #666666; }
+  color: #008000; }
 
 /* LiteralNumberOct */
 .chroma .mo {
-  color: #666666; }
+  color: #008000; }
 
 /* Operator */
 .chroma .o {
