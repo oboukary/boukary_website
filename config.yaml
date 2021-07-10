@@ -43,6 +43,7 @@ permalinks:
   tags: '/tag/:slug/'
   categories: '/category/:slug/'
   publication_types: '/publication-type/:slug/'
+  post: '/blog/:slug'
 disableAliases: true
 math: true
 outputs:
