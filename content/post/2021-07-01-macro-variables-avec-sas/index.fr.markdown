@@ -23,7 +23,7 @@ output:
     toc: true
 ---
 ## Qu'est ce qu'une macro-variable ?
-Les macro-variables dans **SAS** permettent de substituer du texte dans un programme SAS.
+> Les macro-variables dans **SAS** permettent de substituer du texte dans un programme SAS.
 Ils facilitent ainsi la programmation en évitant la répétition du code et le copier-coller.
 Ils facilent aussi la maintenance des programmes SAS ainsi que la lecture.
 Il existe trois façons de créer des macro-variables dans un programme SAS:

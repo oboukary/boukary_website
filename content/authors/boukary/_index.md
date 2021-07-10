@@ -1,6 +1,6 @@
 ---
 bio: Je m'intéresse à la statistique et à l'intelligence artificielle et leurs applications aux domaines de l'économie et de la finance.
-  matter.
+
 education:
   courses:
   - course: Master en modélisation prospective

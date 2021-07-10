@@ -5,10 +5,10 @@
 
 # Appearance
 
-theme: minimal
+theme: 'minimal'
 day_night: true
 font: 'boukary'
-font_size: s
+font_size: m
 
 
 # SEO
@@ -46,7 +46,7 @@ contact_links:
 main_menu:
   enable: true
   align: c
-  show_logo: true
+  show_logo: false
   show_language: false
   show_day_night: false
   show_search: true
