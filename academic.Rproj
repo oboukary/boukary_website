@@ -13,7 +13,3 @@ RnwWeave: Sweave
 LaTeX: pdfLaTeX
 
 BuildType: Website
-
-PythonType: system
-PythonVersion: 3.8.5
-PythonPath: /usr/bin/python3

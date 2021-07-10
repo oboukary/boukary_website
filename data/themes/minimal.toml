@@ -20,3 +20,8 @@ home_section_even = "rgb(247, 247, 247)"
 [dark]
   link = "#bbdefb"
   link_hover = "#bbdefb"
+# Backgrounds
+background = "#f4f9fb"
+home_section_odd = "#f4f9fb"
+home_section_even = "#f4f9fb"
+
