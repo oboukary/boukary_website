@@ -9036,15 +9036,15 @@ html[dir='rtl'] body {
   position: relative; }
 
 .avatar {
-  width: 270px;
-  height: 270px;
+  width: 200px;
+  height: 200px;
   margin: 0 auto;
   object-fit: cover; }
 
 @media (max-width: 767.98px) {
   .wg-about .avatar {
-    width: 200px;
-    height: 200px; } }
+    width: 180px;
+    height: 180px; } }
 
 .avatar-circle {
   border-radius: 50%; }
