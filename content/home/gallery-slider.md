@@ -20,4 +20,4 @@ design:
   columns: '2'
 ---
 
-{{< gallery-slider dir="/img/portfolio/" auto-slide="4000" arrow-left="fa-angle-double-left" arrow-right="fa-angle-double-right"  >}}
+{{< gallery-slider dir="/img/portfolio/" auto-slide="3000" arrow-left="fa-angle-double-left" arrow-right="fa-angle-double-right"  >}}
