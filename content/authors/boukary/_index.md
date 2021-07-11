@@ -33,20 +33,22 @@ social:
     header: false
   icon: twitter
   icon_pack: fab
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/oboukary/
   label: Suivez-moi sur Twitter
   link: https://twitter.com/Boukary16
 - icon: github
   icon_pack: fab
   link: https://github.com/oboukary
-- icon: linkedin
-  icon_pack: fab
-  link: https://www.linkedin.com/in/oboukary/
+
+  
 superuser: true
 title: Boukary Ouedraogo
 ---
 
 <p>Actuellement data scientist à la caisse centrale de la mutualité sociale agricole(CCMSA), je suis passionné par les sciences de la donnée et l'intelligence artificielle. Doué d'une grande capacité à apprendre en autodidacte, je me forme pendant mes temps libres pour continuer de progresser sur ces sujets.  
-Je maîtrise les langages <strong>R, Python, SAS, SQL</strong> ainsi que toutes les librairies populaires de l'univers de la data tels que <strong> tidyverse, numpy, pandas, scikit-learn, pytorch, scipy, tensorflow, git,...</strong>
+Je maîtrise les langages <strong>R, Python, SAS, SQL</strong> ainsi que les librairies populaires de l'univers de la data tels que <strong> tidyverse, numpy, pandas, scikit-learn, pytorch, scipy, tensorflow, git,...</strong>
 </p>
 
 {{< icon name="download" pack="fas" >}} Télécharger mon {{< staticref "uploads/cv.pdf" "newtab" >}}CV{{< /staticref >}}.
