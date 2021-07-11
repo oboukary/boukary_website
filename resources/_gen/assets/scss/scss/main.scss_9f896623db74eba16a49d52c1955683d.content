@@ -9686,8 +9686,7 @@ div.alert.alert-warning {
 /* section headers */
 div.universal-wrapper.pt-3 h1 {
   text-align: center;
-  padding-bottom: 50px;
-  text-transform: capitalize; }
+  padding-bottom: 50px; }
 
 /* about-contact helpers */
 hr {

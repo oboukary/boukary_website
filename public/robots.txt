@@ -1,3 +1,0 @@
-User-agent: *
-
-Sitemap: https://www.oboukary.com/sitemap.xml
