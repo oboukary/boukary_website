@@ -28,7 +28,7 @@ Tensorflow est l'un des framework les plus utilisés pour la mise en oeuvre des 
 import tensorflow as tf
 from tensorflow.keras.datasets import fashion_mnist
 train_data, test_data, train_target, test_target = fashion_mnist.load_data()
-train_data, test_data = train_data/255.0, test_data/255.0 # Pour standardiser les pixels
+train_data, test_data = train_data/255.0, test_data/255.0 
 
 model = tf.keras.Sequential([
                             tf.keras.layers.Flatten(input_shape = (28, 28)),
@@ -42,5 +42,8 @@ model.compile(loss = loss_fn, optimizers = "adam", metrics = ["accuracy"])
 
 model.fit(train_data, train_target, epochs = 5)
 ```
+<div class="alert alert-success"><div>Please first copy and paste <code>FindG2O.cmake</code> from where you build your g2o library to the folder where you want to build the following source code</div></div>
 
-
+```python
+import sklearn as sk
+```

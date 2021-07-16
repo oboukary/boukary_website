@@ -11,7 +11,7 @@
       var copyButton = "<button type='button' class='btn btn-primary btn-copy-ex' type = 'submit' title='Copier dans le presse-papier' aria-label='Copier dans le presse-papier' data-toggle='tooltip' data-placement='left' id='tooltip-left' data-trigger='hover' data-clipboard-copy><i class='far fa-copy'></i></button>";
       
        $(".chroma").wrap("<div class='sourceCode'> </div>");
-       $("pre, code").addClass("sourceCode");
+      
       $("div.sourceCode").addClass("hasCopyButton");
       // Insert copy buttons:
       $(copyButton).prependTo(".hasCopyButton");
@@ -36,3 +36,9 @@
       });
     });
   }
+  
+  // Identifier les <pre> fermant
+    $('pre').next("*:not(pre)").prev().addClass('last'); // Dernier <pre> de chaque groupe contigu de <pre>
+    $('pre').parent().each(function (){
+      $(this).children('pre').last().addClass('last');
+    }); // Si <pre> est le dernier enfant de son parent

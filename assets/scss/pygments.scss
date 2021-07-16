@@ -132,27 +132,27 @@
 /* LiteralStringDoc */ .chroma   .language-sas  .sd { color: #ba2121; font-style: italic }
 /* LiteralStringDouble */ .chroma   .language-sas  .s2 { color: #ba2121 }
 /* LiteralStringEscape */ .chroma   .language-sas  .se { color: #bb6622; font-weight: bold }
-/* LiteralStringHeredoc */ .chroma   .language-sas  .sh { color: #ba2121 }
+/* LiteralStringHeredoc */ .chroma   .language-sas  .sh { color: #98218f }
 /* LiteralStringInterpol */ .chroma   .language-sas  .si { color: #bb6688; font-weight: bold }
 /* LiteralStringOther */ .chroma   .language-sas  .sx { color: #192cb5 }
 /* LiteralStringRegex */ .chroma   .language-sas  .sr { color: #bb6688 }
-/* LiteralStringSingle */ .chroma   .language-sas  .s1 { color: #ba2121 }
+/* LiteralStringSingle */ .chroma   .language-sas  .s1 { color: #98218f }
 /* LiteralStringSymbol */ .chroma   .language-sas  .ss { color: #19177c }
-/* LiteralNumber */ .chroma   .language-sas  .m { color: #666666 }
-/* LiteralNumberBin */ .chroma   .language-sas  .mb { color: #666666 }
-/* LiteralNumberFloat */ .chroma   .language-sas  .mf { color: #666666 }
-/* LiteralNumberHex */ .chroma   .language-sas  .mh { color: #666666 }
-/* LiteralNumberInteger */ .chroma   .language-sas  .mi { color: #666666 }
-/* LiteralNumberIntegerLong */ .chroma   .language-sas  .il { color: #666666 }
-/* LiteralNumberOct */ .chroma   .language-sas  .mo { color: #666666 }
-/* Operator */ .chroma   .language-sas  .o { color: #666666 }
+/* LiteralNumber */ .chroma   .language-sas  .m { color: #007572;font-weight: bold }
+/* LiteralNumberBin */ .chroma   .language-sas  .mb { color: #007572 ;font-weight: bold}
+/* LiteralNumberFloat */ .chroma   .language-sas  .mf { color: #007572 ;font-weight: bold}
+/* LiteralNumberHex */ .chroma   .language-sas  .mh { color: #007572 ;font-weight: bold}
+/* LiteralNumberInteger */ .chroma   .language-sas  .mi { color: #007572;font-weight: bold }
+/* LiteralNumberIntegerLong */ .chroma   .language-sas  .il { color: #007572;font-weight: bold }
+/* LiteralNumberOct */ .chroma   .language-sas  .mo { color: #007572 ;font-weight: bold}
+/* Operator */ .chroma   .language-sas  .o { color: #007572 }
 /* OperatorWord */ .chroma   .language-sas  .ow { color: #aa22ff; font-weight: bold }
 /* Punctuation */ .chroma   .language-sas  .p {  }
-/* Comment */ .chroma   .language-sas  .c { color: #408080; font-style: italic }
-/* CommentHashbang */ .chroma   .language-sas  .ch { color: #408080; font-style: italic }
-/* CommentMultiline */ .chroma   .language-sas  .cm { color: #408080; font-style: italic }
-/* CommentSingle */ .chroma   .language-sas  .c1 { color: #408080; font-style: italic }
-/* CommentSpecial */ .chroma   .language-sas  .cs { color: #408080; font-style: italic }
+/* Comment */ .chroma   .language-sas  .c { color: #3e7a20; font-style: italic }
+/* CommentHashbang */ .chroma   .language-sas  .ch { color: #3e7a20; font-style: italic }
+/* CommentMultiline */ .chroma   .language-sas  .cm { color: #3e7a20; font-style: italic }
+/* CommentSingle */ .chroma   .language-sas  .c1 { color: #3e7a20; font-style: italic }
+/* CommentSpecial */ .chroma   .language-sas  .cs { color: #3e7a20; font-style: italic }
 /* CommentPreproc */ .chroma   .language-sas  .cp { color: #bc7a00 }
 /* CommentPreprocFile */ .chroma   .language-sas  .cpf { color: #bc7a00 }
 /* Generic */ .chroma   .language-sas  .g {  }

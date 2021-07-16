@@ -23,7 +23,8 @@ design:
     image_position: center
     image_size: cover
     text_color_light: true
+    image_parallax: true
   spacing:
-    padding: ["10px", "0", "10px", "0"]
+    padding: ["40px", "0", "40px", "0"]
 ---
 

@@ -72,6 +72,16 @@ a:hover {
   text-transform: uppercase;
   font-weight: 700;
 	letter-spacing: .1em;
+	border: none !important;
+  background: transparent !important
+}
+img.logo_nav{
+  	border: none !important;
+  background: transparent !important
+}
+
+.navbar-inner {
+    height: 40px;  
 }
 
 /*----NAV LINK HOVER ANIMATION -----*/
@@ -160,84 +170,7 @@ pre, code {
 
 	
 }
-/*
-pre {
-  border: 1px solid #fff;
-  box-shadow: 5px 5px 5px #eee;
-  padding: 0.25em;
-  background: #fff;
-  overflow-x: auto;
-  border-radius: 0px; 
 
-pre code { 
-  background: none; 
-  font-size: 0.8rem;
-}
-*/
-/* alerts */
-
-div.alert-note > div:first-child::before {
-  font-family: 'Font Awesome 5 Free';
-  font-weight: 900;
-  color: #78858f;
-  content: "\f0a4";
-}
-
-div.alert-warning > div:first-child::before {
-  font-family: 'Font Awesome 5 Free';
-  font-weight: 900;
-  color: #78858f;
-  content: "\f1e2";
-}
-
-.alert-note {
-  color: #333;
-  background-color: #fff;
-  border-top: 2px solid #78858f;
-  border-radius: 0px; /*undo rounded corners*/
-  border-right-style: none;
-  border-bottom-style: none;
-  border-left-style: none;
-  padding: 23px 10px 21px 10px;
-}
-
-div.alert > div {
-  font-size: 0.85rem;
-}
-
-
-div.alert.alert-warning {
-  color: #d03b39;
-  background-color: #fdf4f4;
-  border-top: 2px solid #78858f;
-  border-radius: 0px; /*undo rounded corners*/
-  border-right-style: none;
-  border-bottom-style: none;
-  border-left-style: none;
-  padding: 23px 10px 21px 10px;
-}
-
-/* buttons */
-
-.btn.btn-sm, .btn-group-sm > .btn {
-  border-radius: 0rem; /*undo rounded corners*/
-  font-size: 0.8rem;
-}
-
-.btn.btn-outline-primary.my-1.mr-1 {
-  border-radius: 0px; /*undo rounded corners*/
-  font-size: 0.8rem;
-}
-
-.btn {
-  font-family: Lora;
- /* font-style: italic; */
-  border-radius: 0px;
-}
-
-.btn-toolbar .btn:first-child {
-  border-radius: 0px;
-}
 
 .btn-toolbar .btn:last-child {
   border-radius: 0px;
@@ -377,6 +310,7 @@ pre.chroma {padding-left: 1em;
             padding-right: 0.5em;
 }
 
+
 pre {
   word-wrap: normal;
   word-break: normal;
@@ -409,8 +343,6 @@ code a, pre a {
 }
 
 
-button.btn.btn-primary{
-  border-radius: 0.22em;
-}
+
 
 

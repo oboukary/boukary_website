@@ -5,7 +5,7 @@
 
 # Appearance
 
-theme: 'minimal'
+theme: 'boukary'
 day_night: true
 font: 'boukary'
 font_size: m
@@ -46,7 +46,7 @@ contact_links:
 main_menu:
   enable: true
   align: c
-  show_logo: false
+  show_logo: true
   show_language: false
   show_day_night: false
   show_search: true
