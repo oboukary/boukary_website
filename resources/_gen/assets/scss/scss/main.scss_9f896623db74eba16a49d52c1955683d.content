@@ -7020,7 +7020,7 @@ button.bg-dark:focus {
   text-transform: uppercase !important; }
 
 .text-capitalize {
-  text-transform: capitalize !important; }
+  text-transform: none !important; }
 
 .font-weight-light {
   font-weight: 300 !important; }
@@ -8779,8 +8779,7 @@ html[dir='rtl'] body {
 
 .search-hit-type {
   margin-bottom: 0 !important;
-  /* Override .article-metadata margin. */
-  text-transform: capitalize; }
+  /* Override .article-metadata margin. */ }
 
 .search-hit-description {
   font-size: 0.7rem; }

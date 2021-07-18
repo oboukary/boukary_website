@@ -19,9 +19,11 @@ image:
 projects: []
 ---
 ## Bref introduction
-Le deep learning ou apprentissage profond en français, est un sous-ensemble du machine learning qui utilise des réseaux de neurones artificiels pour apprendre à extraire des patternes dans un jeu de données. Le deep learning est particulièrement puissant dans le domaine du traitement d'images, de la vision par ordinateur(computeur vision) et du traitement automatique du langage naturel(natural language processing).
+Le deep learning ou apprentissage profond en français, est un sous-ensemble **du machine learning**(apprentissage automatique en Français) qui utilise des réseaux de neurones artificiels pour apprendre à extraire des patternes dans un jeu de données. Le deep learning est particulièrement puissant dans le domaine du traitement d'images, de la vision par ordinateur(computeur vision) et du traitement automatique du langage naturel(natural language processing).
+Si la théorie sous-jacente au deep learning date de très longtemps(depuis les travaux de Allan Turing dans les années 1950), son utilisation pratique par la grande masse est récente. Cette popularisation a été rendue possible grace au progrès dans le domaine de l'informatique et l'augmentation de la capacité de calcul des ordinateurs.
+Aussi, les géants du numériques tels que Google, Facebook, Microsoft,... ont contribué à rendre accessible le deep learning grâce notamment à leur frameworks open-source dédiés à son implémentation. 
 
-Tensorflow est l'un des framework les plus utilisés pour la mise en oeuvre des algorithmes de deep-learning au côté de pytorch et Caffe.
+Tensorflow est l'un des framework les plus utilisés pour la mise en oeuvre des algorithmes de deep-learning au côté de pytorch et Caffe. Développé par google pour son propre usage, tensorflow a été mis à la disposition du grand public à partir de 2015. 
 
 ## Un exemple d'algorithme de deep learning
 ```python
@@ -42,8 +44,8 @@ model.compile(loss = loss_fn, optimizers = "adam", metrics = ["accuracy"])
 
 model.fit(train_data, train_target, epochs = 5)
 ```
-<div class="alert alert-success"><div>Please first copy and paste <code>FindG2O.cmake</code> from where you build your g2o library to the folder where you want to build the following source code</div></div>
 
-```python
-import sklearn as sk
-```
+
+
+
+
