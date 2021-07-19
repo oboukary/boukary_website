@@ -63,9 +63,6 @@ address_format: en-us
 highlight: false
 highlight_languages:
   - r
-  - python
-  - latex
-  - sas
 highlight_style: "tomorrow"
 math: true
 diagram: true
