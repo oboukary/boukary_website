@@ -7,7 +7,7 @@
     <description>macro-variables</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>fr-fr</language><copyright>© 2021 Boukary Ouedraogo </copyright><lastBuildDate>Thu, 01 Jul 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://www.oboukary.com/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <url>https://www.oboukary.com/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>macro-variables</title>
       <link>https://www.oboukary.com/tag/macro-variables/</link>
     </image>
@@ -29,7 +29,7 @@ Il existe trois façons de créer des macro-variables dans un programme SAS:&lt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
 &lt;h3 id=&#34;macro-variables-à-partir-dune-rêquete-sql&#34;&gt;Macro-variables à partir d&amp;rsquo;une rêquete SQL.&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sas&#34; data-lang=&#34;sas&#34;&gt;&lt;span class=&#34;kr&#34;&gt;proc sql &lt;/span&gt;noprint;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sas&#34; data-lang=&#34;sas&#34;&gt;&lt;span class=&#34;kr&#34;&gt;proc sql &lt;/span&gt;noprint;
 &lt;span class=&#34;k&#34;&gt;select&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;distinct&lt;/span&gt; make &lt;span class=&#34;k&#34;&gt;into&lt;/span&gt; :cars &lt;span class=&#34;k&#34;&gt;from&lt;/span&gt; sashelp&lt;span class=&#34;m&#34;&gt;.&lt;/span&gt;cars;
 bibi&lt;span class=&#34;m&#34;&gt;.&lt;/span&gt;data&lt;span class=&#34;kr&#34;&gt;;
 &lt;/span&gt;&lt;span class=&#34;kr&#34;&gt;quit;&lt;/span&gt;

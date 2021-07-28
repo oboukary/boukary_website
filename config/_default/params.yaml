@@ -116,7 +116,7 @@ comments:
     publication: true
     event: true
   disqus:
-    shortname: 'boukary'
+    shortname: ''
     show_count: true
   commento:
     url: ''

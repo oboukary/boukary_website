@@ -1,5 +1,5 @@
 ---
-title: Introduction Au Deep Learning Avec Tensorflow
+title: Introduction au deep learning avec Tensorflow
 author: Boukary Ouedraogo
 date: '2021-07-10'
 slug: introduction-au-deep-learning-avec-tensorflow
