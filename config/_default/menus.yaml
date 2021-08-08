@@ -16,10 +16,10 @@ main:
   - name: Contact
     url: 'contact/'
     weight: 40
-  - identifier: dev
-    name: CV en ligne
-    weight: 50
-    url: https://ouedraogoboukary.netlify.app/
+ # - identifier: dev
+ #   name: CV en ligne
+ #   weight: 50
+ #   url: https://ouedraogoboukary.netlify.app/
 
 
   

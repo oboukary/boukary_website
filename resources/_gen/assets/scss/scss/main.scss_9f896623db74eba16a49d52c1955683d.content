@@ -9515,6 +9515,11 @@ body {
 .navbar {
   min-height: 100px !important; }
 
+h1 {
+  text-align: justify;
+  word-break: none;
+  text-justify: inter-word; }
+
 h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   letter-spacing: 0.04em;

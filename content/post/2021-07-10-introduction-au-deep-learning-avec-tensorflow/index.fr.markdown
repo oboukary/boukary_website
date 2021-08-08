@@ -17,6 +17,7 @@ image:
   focal_point: ''
   preview_only: no
 projects: []
+draft: true
 ---
 ## Bref introduction
 Le deep learning ou apprentissage profond en français, est un sous-ensemble **du machine learning**(apprentissage automatique en Français) qui utilise des réseaux de neurones artificiels pour apprendre à extraire des patternes dans un jeu de données. Le deep learning est particulièrement puissant dans le domaine du traitement d'images, de la vision par ordinateur(computeur vision) et du traitement automatique du langage naturel(natural language processing).
@@ -44,6 +45,7 @@ model.compile(loss = loss_fn, optimizers = "adam", metrics = ["accuracy"])
 
 model.fit(train_data, train_target, epochs = 5)
 ```
+
 
 
 

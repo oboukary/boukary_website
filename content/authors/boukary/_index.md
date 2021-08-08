@@ -1,5 +1,5 @@
 ---
-bio: Je m'intéresse à la statistique et à l'intelligence artificielle et leurs applications aux domaines<br> de l'économie et de la finance.
+bio: Je m'intéresse à la data science et au machine learning et leurs applications au business.
 
 education:
   courses:
@@ -47,8 +47,9 @@ superuser: true
 title: Boukary Ouedraogo
 ---
 
-<p>Actuellement data scientist à la caisse centrale de la mutualité sociale agricole(CCMSA), je suis passionné par les sciences de la donnée et l'intelligence artificielle. Doué d'une grande capacité à apprendre en autodidacte, je me forme pendant mes temps libres pour continuer de progresser sur ces sujets.  
-Je maîtrise les langages <strong>R, Python, SAS, SQL</strong> ainsi que les librairies populaires de l'univers de la data tels que <strong> tidyverse, numpy, pandas, scikit-learn, pytorch, scipy, tensorflow, git,...</strong>
+<p> Data scientist, je suis passionné par les sciences de la donnée et l'intelligence artificielle.  Cette passion me conduit à apprendre continuellement pendant mes temps libres pour continuer de progresser sur ces sujets. J'ai crée ce site pour présenter mes réalisations et mes projets. Je suis preneur de toutes les critiques constructives car je suis convaincu qu'elles permettent de s'améliorer. 
+Je travaille principalement avec <strong>Python, R, SAS et SQL</strong>.
+J'utilise régulièrement dans mes travaux les librairies populaires de l'univers de la data tels que <strong> tidyverse, numpy, pandas, scikit-learn, pytorch, scipy, tensorflow, git,...</strong>
 </p>
 
 {{< icon name="download" pack="fas" >}} Télécharger mon {{< staticref "uploads/cv.pdf" "newtab" >}}CV{{< /staticref >}}.
