@@ -1,5 +1,5 @@
 ---
-title: Poids de la preuve et valeur informationnelle dans les modèles de 
+title: Poids de la preuve(WOE) et valeur informationnelle(IV) dans les modèles de 
        regression logistique
 author: Boukary Ouedraogo
 date: '2021-04-28'

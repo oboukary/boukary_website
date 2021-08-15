@@ -7524,7 +7524,7 @@ div.alert a {
   max-width: 960px;
   padding: 0 20px 0 20px;
   margin: 0 auto 0 auto;
-  text-align: justify; }
+  text-align: left; }
 
 .page-subtitle {
   font-size: 1.15rem;
@@ -9514,11 +9514,6 @@ body {
 
 .navbar {
   min-height: 100px !important; }
-
-h1 {
-  text-align: justify;
-  word-break: none;
-  text-justify: inter-word; }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
