@@ -20,6 +20,7 @@ interests:
 - Deep learning
 - Finance
 - Economie
+- Econométrie
 - Programmation
 organizations:
 - name: CCMSA
