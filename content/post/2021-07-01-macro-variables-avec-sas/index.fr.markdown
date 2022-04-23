@@ -41,7 +41,7 @@ Pour cela on va procéder
 
 ```sas
 proc sql noprint;
-select distinct make into :cars separated by " " from sashelp.cars;
+  select distinct make into :cars  separated by " " from sashelp.cars;
 quit;
 ```
 L'option `noprint` évite d'afficher le résultat de la rêquete `select`. <br>
@@ -60,14 +60,14 @@ La macro instruction `%put &=cars` permet d'afficher le résultat de l'évaluati
 *                          MACRO PROGRAMME                                        *;
 ***********************************************************************************;
 %macro split();
-%do i = 1 %to %sysfunc(countw(&cars));
-%local var;
-%let var = %scan(&cars,&i);
-data &var;
-set sashelp.cars;
-where make="&var";
-run;
-%end;
+  %do i = 1 %to %sysfunc(countw(&cars));
+  %local var;
+  %let var = %scan(&cars,&i);
+  data &var;
+    set sashelp.cars;
+    where make="&var";
+  run;
+  %end;
 %mend;
 ```
 Pour utiliser la macro-programme on procède simplement comme suit:
