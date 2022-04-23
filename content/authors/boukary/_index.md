@@ -34,11 +34,11 @@ social:
     header: false
   icon: twitter
   icon_pack: fab
+  label: Suivez-moi sur Twitter
+  link: https://twitter.com/Boukary16
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/oboukary/
-  label: Suivez-moi sur Twitter
-  link: https://twitter.com/Boukary16
 - icon: github
   icon_pack: fab
   link: https://github.com/oboukary
