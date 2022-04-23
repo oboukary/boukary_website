@@ -38,7 +38,7 @@
         <li class="{{ if and .File $current_node.File | and (eq .File.UniqueID $current_node.File.UniqueID) }}active{{ end }}"><a href="{{ .RelPermalink }}">{{ safeHTML $icon }}{{ .LinkTitle | default .Title }}</a></li>
     {{else}}
       <div class="docs-toc-item">
-        <a class="docs-toc-link {{ if and .File $current_node.File | and (eq .File.UniqueID $current_node.File.UniqueID) }} active{{ end }}" href="{{ .RelPermalink }}">{{ safeHTML $icon }}{{ .LinkTitle | default .Title }}</a>
+        <a class="docs-toc-link {{ if and .File $current_node.File | and (eq .File.UniqueID $current_node.File.UniqueID) }} active{{ end }}" href="{{ .RelPermalink }}">{{ safeHTML $icon }}{{ .LinkTitle | default  }}</a>
     {{end}}
 
     {{- $page_count := (add (len .Pages) (len .Sections)) -}}
