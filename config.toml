@@ -1,6 +1,6 @@
  theme = "starter-hugo-academic"
 title = "Boukary Ouedraogo"
-baseurl = "https://www.oboukary.com/"
+baseurl = "https://www.boukary.fr/"
 copyright = "© {year} Boukary Ouedraogo "
 defaultContentLanguage = "fr"
 hasCJKLanguage = false
