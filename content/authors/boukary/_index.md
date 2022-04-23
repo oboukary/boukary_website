@@ -23,8 +23,8 @@ interests:
 - Econométrie
 - Programmation
 organizations:
-- name: CCMSA
-  url: https://www.msa.fr/lfy/organisation/conseil-administration-ccmsa
+- name: 
+  url: 
 role: Statisticien | Data scientist
 social:
 - icon: envelope
@@ -48,7 +48,7 @@ superuser: true
 title: Boukary Ouedraogo
 ---
 
-<p> Data scientist, je suis passionné par les sciences de la donnée et l'intelligence artificielle.  Cette passion me conduit à apprendre continuellement pendant mes temps libres pour continuer de progresser sur ces sujets. J'ai crée ce site pour présenter mes réalisations et mes projets. Je suis preneur de toutes les critiques constructives car je suis convaincu qu'elles permettent de s'améliorer. 
+<p> Data scientist, je suis passionné par les sciences de la donnée et l'intelligence artificielle et leurs applications au domaine de la finance.  Cette passion me conduit à apprendre continuellement pendant mes temps libres pour continuer de progresser sur ces sujets. J'ai crée ce site pour présenter mes réalisations et mes projets. Je suis preneur de toutes les critiques constructives car je suis convaincu qu'elles permettent de s'améliorer. 
 Je travaille principalement avec <strong>Python, R, SAS et SQL</strong>.
 J'utilise régulièrement dans mes travaux les librairies populaires de l'univers de la data tels que <strong> tidyverse, numpy, pandas, scikit-learn, pytorch, scipy, tensorflow, git,...</strong>
 </p>
