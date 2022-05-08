@@ -5,6 +5,7 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display&display=swap");
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -7196,7 +7197,7 @@ a.text-dark:hover, a.text-dark:focus {
  **************************************************/
 html {
   font-family: "Karla", sans-serif;
-  font-size: 13.86px;
+  font-size: 12.32px;
   color: rgba(0, 0, 0, 0.8);
   line-height: 1.65;
   scroll-padding-top: 70px; }
@@ -7205,7 +7206,7 @@ html {
       scroll-padding-top: 50px; } }
 @media screen and (min-width: 58em) {
   html {
-    font-size: 18px; } }
+    font-size: 16px; } }
 
 body {
   font-family: inherit;
@@ -8098,7 +8099,7 @@ a.summary-link {
   height: 20px;
   background: #fff;
   box-shadow: 0 0.125rem 0.25rem 0 rgba(0, 0, 0, 0.11);
-  font-size: 13.86px;
+  font-size: 12.32px;
   position: fixed;
   top: 0;
   right: 0;
@@ -8127,7 +8128,7 @@ a.summary-link {
         font-weight: bold !important;
         color: #0072B2 !important; }
   .navbar .dropdown-menu {
-    font-size: 13.86px; }
+    font-size: 12.32px; }
   .navbar .dropdown-item.active,
   .navbar .dropdown-item-active {
     font-weight: bold;
@@ -9544,7 +9545,7 @@ a:hover {
   border: none !important;
   background: transparent !important; }
 
-img.logo_nav {
+.logo_nav {
   border: none !important;
   background: transparent !important; }
 

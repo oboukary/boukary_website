@@ -4,6 +4,7 @@
 
 
  /* IMPORT FONTS */
+ @import url("https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display&display=swap");
 
 @font-face {
   font-family: 'SourceCodePro';
@@ -75,9 +76,9 @@ a:hover {
 	border: none !important;
   background: transparent !important;
 }
-img.logo_nav{
+.logo_nav{
   	border: none !important;
-  background: transparent !important
+  background: transparent !important;
 }
 
 .navbar-inner {
