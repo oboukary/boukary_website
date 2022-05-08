@@ -24,31 +24,20 @@ subtitle = ""
   [[content.filter_button]]
     name = "Tous"
     tag = "*"
+  [[content.filter_button]]
+    name = "Programmation"
+    tag =  "Programmation"
 
-  [[content.filter_button]]
-    name = "R"
-    tag =  "R"
-  [[content.filter_button]]
-    name = "Python"
-    tag =  "Python"
-    
-  [[content.filter_button]]
-    name = "SAS"
-    tag =  "SAS"
   [[content.filter_button]]
     name = "Data science"
     tag =  "Data science"
-
   [[content.filter_button]]
-    name = "Machine learning"
-    tag = "Machine learning"
-  [[content.filter_button]]
-    name = "Deep learning & IA"
-    tag = "Deep learning"
+    name = "Intelligence artificielle"
+    tag = "Intelligence artificielle"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
-  columns = "1"
+  columns = "2"
 
   # Toggle between the various page layout types.
   #   1 = List
