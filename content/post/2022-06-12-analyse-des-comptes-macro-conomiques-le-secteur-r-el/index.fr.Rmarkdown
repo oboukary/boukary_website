@@ -19,6 +19,7 @@ image:
   focal_point: ''
   preview_only: no
 projects: []
+draft: true
 ---
  balances commerciale(BC):  
 
@@ -87,7 +88,7 @@ $(RNBD + TR + INT − T − C_p)= S_p$
 (l'épargne privée) 
 
 $(T − TR −INT −C_g)$
- 
+
 
 Avec  
 
@@ -102,24 +103,21 @@ Cg: La consommation des administrations publiques
  
 
 $CC= RNBD − A = RNBD − C−I = S −I$
+
  
 
 $CC= S−I = (S_p+ S_g) − (I_p+I_g)= (S_p− I_p)+ (S_g− I_g).$
  
-
- 
-
 Si l'épargne est moins importante que l'investissement alors cette différence entre l'épargne et l'investissement doit être importé(emprunts nets). (Déficit du compte courant CC <0) 
 
 Dans le cas contraire, si l'épargne est plus importante que l'investissement, cet excédent doit être utilisé  pour financer des investissements à l'étranger(prêts nets à l'étranger). 
 
 (Excédent du compte courant CC). 
 
- 
 
-Déficit jumeaux: Quand on a à la fois un déficit du compte courant(S <I)  associé à un déficit budgétaire(
+Déficit jumeaux: Quand on a à la fois un déficit du compte courant(S <I)  associé à un déficit budgétaire
 $S_𝒈< I_g$
-) Niveau de l'épargne public inférieur au niveau des investissements publics 
+ Niveau de l'épargne public inférieur au niveau des investissements publics 
 
  
 
@@ -128,12 +126,7 @@ L'épargne à évoluer à la basse depuis 1970 dans les pays développés et cel
 Le ratio investissement/PIB a également une tendance baissière dans la plus part des pays développés sauf aux Etats-Unis. Cela est dû au fait que les Etats Unis ont connu une croissance relativement rapide depuis les années 90 et cette croissance crée une demande d'investissements laquelle demande est confortée par des taux d'intérêts relativement faibles. 
 
 L'épargne a diminué au Japon mais moins rapidement que l'investissement. Ce qui fait que le solde du compte courant est excédentaire au Japon. En revanche aux Etats Unis les solde du compte courant est déficitaire. 
-
- 
-
-L’épargne est la différence entre le RNBD et la consommation (
-S = RNBD – C
-). Parce qu’il est possible de consommer davantage que le revenu disponible par l’importation du reste du monde, l’épargne peut être négative. L’investissement, qui correspond au montant de biens et services qui contribuent au stock de capital physique d’un pays (l’investissement ne peut donc pas être négatif) peut être différent de l’épargne. Si l’investissement et la consommation sont supérieurs à la production de biens et services, la différence peut être importée du reste du monde. 
+L’épargne est la différence entre le RNBD et la consommation (S = RNBD – C). Parce qu’il est possible de consommer davantage que le revenu disponible par l’importation du reste du monde, l’épargne peut être négative. L’investissement, qui correspond au montant de biens et services qui contribuent au stock de capital physique d’un pays (l’investissement ne peut donc pas être négatif) peut être différent de l’épargne. Si l’investissement et la consommation sont supérieurs à la production de biens et services, la différence peut être importée du reste du monde. 
 
  
 
