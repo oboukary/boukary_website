@@ -18,3 +18,5 @@ projects: []
 ---
 
 # Définition
+Un processus aléatoire `\(Z_t\)` est un processus de Wiener si:
+1. `\(\Delta z_t = \varepsilon_t\sqrt\Delta t\)`
