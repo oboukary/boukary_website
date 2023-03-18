@@ -1,0 +1,24 @@
+---
+title: Processus de wiener
+author: Boukary Ouedraogo
+date: '2023-01-10'
+slug: processus-de-wiener
+categories: []
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2023-01-10T22:23:27+01:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+# Définition
+Avant de parler du processus de Wiener donnons la définition d'un processus stochastique de manière générale.
+Un processus stochastique est une suite ou une famille de variables aléatoires indexées par un sous-ensemble de $\mathbb{N} $ ou de $\mathbb{R}$. Lorsque la famille d'indices est un sous-ensemble de $\mathbb{N}$ on parle de processus stochastique à temps discret et à l'opposé lorsque la famille d'indices est un sous-ensemble de $\mathbb{R}$ on parle de processus à temps continu.
+Un processus aléatoire $Z_t$ est un processus de Wiener si:
+1. $\Delta z_t = \varepsilon_t\sqrt\Delta t$

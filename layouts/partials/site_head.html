@@ -59,7 +59,7 @@
   {{ range .Translations }}
     <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}" />
   {{ end }}
-  <link rel="alternate" hreflang="{{ site.LanguageCode | default "en-us" }}" href="{{ .Permalink }}" />
+  <link rel="alternate" hreflang="{{ site.LanguageCode | default "fr-fr" }}" href="{{ .Permalink }}" />
 
   {{ partial "functions/parse_theme" . }}
 
@@ -267,7 +267,7 @@
     <meta property="og:image" content="{{ . }}" />
     <meta property="twitter:image" content="{{ . }}" />
   {{- end -}}
-  <meta property="og:locale" content="{{ site.LanguageCode | default "en-us" }}" />
+  <meta property="og:locale" content="{{ site.LanguageCode | default "fr-fr" }}" />
   {{ if .IsPage }}
     {{ if not .PublishDate.IsZero }}
       <meta
@@ -275,7 +275,7 @@
         content="{{ .PublishDate.Format "2006-01-02T15:04:05-07:00" | safeHTML }}"
       />
     {{ else if not .Date.IsZero }}
-      <meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05-07:00" | safeHTML }}" />
+      <meta property="article:published_time" content="{{ time.Format "2006-01-02T15:04:05-07:00" .Date | safeHTML }}" />
     {{ end }}
     {{ if not .Lastmod.IsZero }}<meta property="article:modified_time" content="{{ .Lastmod.Format "2006-01-02T15:04:05-07:00" | safeHTML }}">{{ end }}
   {{ else }}
