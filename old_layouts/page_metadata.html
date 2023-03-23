@@ -17,13 +17,15 @@
   <span class="article-date">
     {{ $date := $page.Lastmod.Format site.Params.date_format }}
     {{ if eq $page.Type "publication" }}
-      {{ $date = $page.Date.Format (site.Params.publications.date_format | default "January, 2006") }}
+    {{$page.Date.Day}} {{i18n $page.Date.Month }} {{$page.Date.Year}}
+     <!-- {{ $date = $page.Date.Format (site.Params.publications.date_format | default "January, 2006") }} -->
     {{ else }}
       {{ if ne $page.Params.Lastmod $page.Params.Date }}
           {{ i18n "last_updated" }}
+              {{$page.Lastmod.Day}} {{i18n $page.Lastmod.Month }} {{$page.Lastmod.Year}}
       {{ end }}
     {{ end }}
-   {{ $page.Date | time.Format ":date_long" }}
+  
   </span>
   {{ end }}
 

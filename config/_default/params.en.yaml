@@ -1,12 +1,6 @@
-# SITE SETUP
-# Guide: https://wowchemy.com/docs/getting-started/
-# Documentation: https://wowchemy.com/docs/
-# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
-
 # Appearance
-
 theme: 'boukary'
-day_night: true
+day_night: false
 font: 'boukary'
 font_size: 's'
 

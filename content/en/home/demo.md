@@ -13,7 +13,7 @@ headless: true
 weight: 15
 
 title: Welcome!
-subtitle: <p class="bienvenue">Bienvenue sur mon site </p>
+subtitle: <p class="bienvenue">Welcome to my webiste! </p>
 
 design:
   columns: "1"

@@ -1,12 +1,15 @@
  theme = "starter-hugo-academic"
 title = "Boukary Ouedraogo"
 baseurl = "https://www.boukary.fr/"
-copyright = "© {year} Boukary Ouedraogo "
+copyright = "© {year} Boukary Ouedraogo"
+date = 2021-11-03T12:34:56+01:00
 defaultContentLanguage = "fr"
+#disableLanguages = "en"
 hasCJKLanguage = false
 defaultContentLanguageInSubdir = true
+disableLanguageSwitchingButton = true
 removePathAccents = true
-enableGitInfo = false
+enableGitInfo = true
 summaryLength = 30
 paginate = 10
 enableEmoji = true
@@ -33,7 +36,15 @@ path = "github.com/wowchemy/wowchemy-hugo-modules/wowchemy-cms"
 [[module.imports]]
 path = "github.com/wowchemy/wowchemy-hugo-modules/wowchemy"
 
-[permalinks]
+[languages.fr.permalinks]
+event = "/talk/:slug/"
+authors = "/author/:slug/"
+tags = "/tag/:slug/"
+categories = "/category/:slug/"
+publication_types = "/publication-type/:slug/"
+post = "/blog/:slug"
+
+[languages.en.permalinks]
 event = "/talk/:slug/"
 authors = "/author/:slug/"
 tags = "/tag/:slug/"
@@ -94,3 +105,8 @@ toLower = true
   [[related.indices]]
   name = "categories"
   weight = 70
+[frontmatter]
+date = ["date", "publishDate", "lastmod"]
+lastmod = ["lastmod", ":git", "date", "publishDate"]
+[security.funcs]
+getenv = ['^HUGO_', '^WC_POST_CSS' ]

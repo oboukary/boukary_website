@@ -29,9 +29,9 @@
 - id: theme_light
   translation: Light
 - id: theme_dark
-  translation: Dark
+  translation: Sombre
 - id: theme_auto
-  translation: Automatic
+  translation: Auto
 - id: btn_preprint
   translation: Preprint
 - id: btn_pdf
@@ -152,4 +152,30 @@
   translation: En savoir plus
 - id: published_with
   translation:  Réalisé avec  <a href="https://github.com/oboukary/boukary_website"> <i class="fas fa-code-branch"></i></a>, le template <a href="https://wowchemy.com/docs/getting-started/customization/"> Wowchemy academic</a> et le package <a href="https://bookdown.org/yihui/blogdown/"> blogdown</a> de <a href="https://www.r-project.org/"><i class="fab fa-r-project"></i></a>
+- id: January
+  translation: Janvier
+- id: February
+  translation: Février
+- id: March
+  translation: Mars
+- id: April
+  translation: Avril
+- id: May
+  translation: Mai
+- id: June
+  translation: Juin
+- id: July
+  translation: Juillet
+- id: August
+  translation: Août
+- id: September
+  translation: Septembre
+- id: October
+  translation: Octobre
+- id: November
+  translation: Novembre
+- id: December
+  translation: Décembre
 
+  
+  

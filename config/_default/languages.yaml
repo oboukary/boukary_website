@@ -6,12 +6,16 @@
 fr:
   languageCode: fr-fr
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  contentDir: content/fr
+  contentDir: content/fr/
+  title: Mes publications en Français
+  weight: 10
 
 en:
   languageCode: en-US
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  contentDir: content/en
+  contentDir: content/en/
+  title: My posts in English
+  weight: 20
 # Uncomment the lines below to configure your website in a second language.
 #zh:
 #  languageCode: zh-Hans

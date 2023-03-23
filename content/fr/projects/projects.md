@@ -25,16 +25,26 @@ subtitle = ""
     name = "Tous"
     tag = "*"
   [[content.filter_button]]
-    name = "Programmation"
-    tag =  "Programmation"
-
+    name = "Python"
+    tag =  "Python"
+  [[content.filter_button]]
+    name = "R"
+    tag =  "R"
+  [[content.filter_button]]
+    name = "SAS"
+    tag =  "SAS"
   [[content.filter_button]]
     name = "Data science"
     tag =  "Data science"
   [[content.filter_button]]
-    name = "Intelligence artificielle"
-    tag = "Intelligence artificielle"
-
+    name = "Economie"
+    tag =  "Economie"
+  [[content.filter_button]]
+    name = "Finance"
+    tag = "Finance"
+  [[content.filter_button]]
+    name = "Divers"
+    tag = "Divers"
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
   columns = "2"

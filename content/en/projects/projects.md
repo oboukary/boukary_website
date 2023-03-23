@@ -17,27 +17,35 @@ subtitle = ""
   # To show all items, set `tag` to "*".
   # To filter by a specific tag, set `tag` to an existing tag name.
   # To remove toolbar, delete/comment all instances of `[[content.filter_button]]` below.
-
+  
   # Default filter index (e.g. 0 corresponds to the first `[[filter_button]]` instance below).
-  filter_default = 0
+  filter_default = 1
 
   [[content.filter_button]]
     name = "All"
     tag = "*"
   [[content.filter_button]]
-    name = "Programmation"
-    tag =  "Programmation"
-
+    name = "Python"
+    tag =  ".python"
+  [[content.filter_button]]
+    name = "R"
+    tag =  ".r"
+    [[content.filter_button]]
+    name = "SAS"
+    tag =  ".sas"
   [[content.filter_button]]
     name = "Data science"
-    tag =  "Data science"
+    tag =  ".data_science"
   [[content.filter_button]]
     name = "Economics"
-    tag = "Economics"
+    tag  = ".economics"
+    [[content.filter_button]]
+    name = "Finance"
+    tag  = ".finance"
  
   [[content.filter_button]]
-    name = "Miscellaneous"
-    tag  = "Miscellaneous"   
+    name = "Others"
+    tag  = ".others"   
   
 
 [design]

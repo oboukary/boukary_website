@@ -53,7 +53,7 @@
   translation: Dark
 
 - id: theme_auto
-  translation: Automatic
+  translation: Auto
 
 # Buttons
 
@@ -260,5 +260,30 @@
 
 - id: published_with
   translation:  Published with <a href="https://github.com/oboukary/boukary_website"> <i class="fas fa-code-branch"></i></a>, Hugo <a href="https://wowchemy.com/docs/getting-started/customization/"> Wowchemy academic</a> template and the <a href="https://www.r-project.org/"><i class="fab fa-r-project"></i></a> <a href="https://bookdown.org/yihui/blogdown/"> blogdown </a> package 
+
+- id: January
+  translation: January
+- id: February
+  translation: February
+- id: March
+  translation: March
+- id: April
+  translation: April
+- id: May
+  translation: May
+- id: June
+  translation: June
+- id: July
+  translation: July
+- id: August
+  translation: August
+- id: September
+  translation: September
+- id: October
+  translation: October
+- id: November
+  translation: November
+- id: December
+  translation: December
 
 

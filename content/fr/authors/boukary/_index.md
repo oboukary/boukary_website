@@ -48,7 +48,7 @@ superuser: true
 title: Boukary Ouedraogo
 ---
 
-<p> Je suis Boukary. J'ai un background en statistique et économie appliquée. Passionné par la data et ses applications dans le business, j'ai crée ce site pour présenter mes réalisations et mes projets. Je suis preneur de toutes les critiques constructives car je suis convaincu qu'elles permettent de s'améliorer. 
+<p> Je suis Boukary. J'ai un background en statistique et économie appliquée. Passionné par la data et ses applications dans le business, j'ai crée ce site pour présenter mes réalisations et mes projets. 
 Je travaille principalement avec <strong>Python, R, SAS et SQL</strong>.
 J'utilise régulièrement dans mes travaux les librairies populaires de l'univers de la data tels que <strong> tidyverse, numpy, pandas, scikit-learn, pytorch, scipy, tensorflow, git,...</strong>
 </p>
