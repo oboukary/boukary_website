@@ -53,4 +53,4 @@ Je travaille principalement avec <strong>Python, R, SAS et SQL</strong>.
 J'utilise régulièrement dans mes travaux les librairies populaires de l'univers de la data tels que <strong> tidyverse, numpy, pandas, scikit-learn, pytorch, scipy, tensorflow, git,...</strong>
 </p>
 
-{{< icon name="download" pack="fas" >}} {{< staticref "uploads/CV_Boukary_OUEDRAOGO.pdf" "newtab" >}}Télécharger mon CV{{< /staticref >}}.
+<!--{{< icon name="download" pack="fas" >}} {{< staticref "uploads/CV_Boukary_OUEDRAOGO.pdf" "newtab" >}}Télécharger mon CV{{< /staticref >}}. -->
