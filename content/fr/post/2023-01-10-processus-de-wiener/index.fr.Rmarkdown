@@ -21,5 +21,37 @@ draft: true
 # Définition
 Avant de parler du processus de Wiener donnons la définition d'un processus stochastique de manière générale.
 Un processus stochastique est une suite ou une famille de variables aléatoires indexées par un sous-ensemble de $\mathbb{N} $ ou de $\mathbb{R}$. Lorsque la famille d'indices est un sous-ensemble de $\mathbb{N}$ on parle de processus stochastique à temps discret et à l'opposé lorsque la famille d'indices est un sous-ensemble de $\mathbb{R}$ on parle de processus à temps continu.
-Un processus aléatoire $Z_t$ est un processus de Wiener si:
-1. $\Delta z_t = \varepsilon_t\sqrt\Delta t$
+{{% callout note %}}
+Un processus aléatoire $z_t$ est un processus de Wiener si:
+1. $\Delta z_t = \varepsilon_t\sqrt{\Delta t}$ où $z_t  \sim \mathcal{N}(0,\,1)\,$ et $\Delta z_t = z_{_{t+ \Delta t}} - z_{_t}$
+
+2. Les accroissements $\Delta z$ sur deux intervalles de temps qui ne se chevauchent pas sont indépendants.
+
+{{% /callout %}}
+
+# Simulation d'un processus de Wiener
+```{r, echo=FALSE, message=FALSE}
+library(ggplot2)
+library(plotly)
+
+```
+
+
+```{r}
+set.seed(123)
+dt= 1
+time = seq(0, 365, dt)
+z= rnorm(n=length(time)-1, mean= 0, sd=sqrt(dt))
+z=c(0,cumsum(z))
+z_data <- data.frame(time, z)
+
+p<- ggplot(data= z_data, aes( x=time,y=z)) + 
+  geom_line( color="blue", linewidth=1) +
+  xlab('Le temps(en jours)')+
+  ylab('')
+
+ggplotly(p)
+
+
+```
+

@@ -1,0 +1,6 @@
+[submodule "themes/themes/academic-tools"]
+	path = themes/themes/academic-tools
+	url = https://github.com/Bertbk/academic-tools.git
+[submodule "themes/academic-tools"]
+	path = themes/academic-tools
+	url = https://github.com/Bertbk/academic-tools.git

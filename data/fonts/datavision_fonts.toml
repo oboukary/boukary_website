@@ -1,0 +1,13 @@
+# Font style metadata
+name = "datavision_fonts"
+
+# Optional Google font URL
+google_fonts = "family=Archivo+Narrow&family=Fjalla+One&family=Roboto+Condensed:wght@700&family=Sarabun:wght@300&display=swap;Archivo Narrow; Fjalla One; Roboto Condensed; Sarabun"
+# Font families
+
+heading_font = "Roboto Condensed"
+body_font = "Sarabun"
+nav_font = "Fjalla One"
+mono_font = "Sarabun"
+
+##Rose theme here because I am unable to customize....
