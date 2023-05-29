@@ -18,7 +18,7 @@ projects: []
 draft: true
 ---
 
-# Définition
+## Définition
 Avant de parler du processus de Wiener donnons la définition d'un processus stochastique de manière générale.
 Un processus stochastique est une suite ou une famille de variables aléatoires indexées par un sous-ensemble de $\mathbb{N} $ ou de $\mathbb{R}$. Lorsque la famille d'indices est un sous-ensemble de $\mathbb{N}$ on parle de processus stochastique à temps discret et à l'opposé lorsque la famille d'indices est un sous-ensemble de $\mathbb{R}$ on parle de processus à temps continu.
 {{% callout note %}}
@@ -29,29 +29,57 @@ Un processus aléatoire $z_t$ est un processus de Wiener si:
 
 {{% /callout %}}
 
-# Simulation d'un processus de Wiener
+Comme $\varepsilon_{t} \sim \mathcal{N}(0,\,1)\,$ alors $\Delta Z \sim\mathcal{N}(0,\,\sqrt{\Delta t})\,$
+
+## Simulation d'un processus de Wiener
 ```{r, echo=FALSE, message=FALSE}
 library(ggplot2)
 library(plotly)
+library(tidyquant)
+library(dplyr)
+library(magrittr)
 
 ```
 
 
-```{r}
+```{r, message=FALSE}
+
+# 1. Simulation
 set.seed(123)
 dt= 1
 time = seq(0, 365, dt)
 z= rnorm(n=length(time)-1, mean= 0, sd=sqrt(dt))
 z=c(0,cumsum(z))
-z_data <- data.frame(time, z)
+z_data <- data.frame(time, z) %>% 
+  mutate(fd="Trajectoire d'un processus de Wiener")
 
-p<- ggplot(data= z_data, aes( x=time,y=z)) + 
-  geom_line( color="blue", linewidth=1) +
-  xlab('Le temps(en jours)')+
-  ylab('')
+# 2. Visualisation
 
+p<- ggplot(data= z_data) + 
+  geom_line( aes( x=time,y=z), color='#0000FF') +
+  facet_wrap(~ fd, ncol = 1, scale = "free") +
+  scale_color_tq() +
+  theme_tq() +
+  theme(legend.position="none",
+        strip.text  = element_text(size = 15),
+        axis.title = element_text(size=15),
+        axis.title.x = element_text(margin =)
+        ) +
+    xlim(0, 370) +
+  labs(title = "", x = "Le temps (en jours)", y = "z") +
+scale_x_discrete(limits=seq(0,365,73))
 ggplotly(p)
-
 
 ```
 
+
+
+Nous venons de simuler un processus de Wiener dont la valeur initial est $z_0=0$.
+
+## Généralisation
+
+Le processus de wiener que nous venons de simuler est un processus donc les accroissements $\Delta z$ suivent une loi normale de moyenne $0$ et d'écart-type $\sqrt{\Delta t}$. 
+
+On peut généraliser ce processus à des cas ou la moyenne du processus est différente de $0$ et l'écart-type $\sigma\sqrt{\Delta t}$.
+
+$\Delta z=\mu \Delta t + \sigma \varepsilon\sqrt{\Delta t}$
