@@ -39,6 +39,7 @@ library(plotly)
 library(tidyquant)
 library(dplyr)
 library(magrittr)
+library(plotly)
 
 ```
 
