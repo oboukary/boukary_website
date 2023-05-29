@@ -16,6 +16,7 @@ image:
   preview_only: no
 projects: []
 draft: true
+runtime: shiny
 ---
 
 ## Définition
