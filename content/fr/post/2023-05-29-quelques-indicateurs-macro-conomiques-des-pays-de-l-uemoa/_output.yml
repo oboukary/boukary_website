@@ -1,0 +1,2 @@
+output:
+  blogdown::html_page

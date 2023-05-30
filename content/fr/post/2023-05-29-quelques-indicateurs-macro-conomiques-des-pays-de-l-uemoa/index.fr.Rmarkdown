@@ -86,6 +86,9 @@ p <- ggplot(data=gdp_uemoa) +
 p
 ```
 
-Sans suprise, la Côte d'Ivoire est le PIB par habitant de la Côte d'Ivoire est le plus élevé de l'UEMOA. C'est le pays le plus riche de cette zone économique et monétaire. On remarque que le PIB par habitant a baissé entre la fin des années 90 et 2010. Cette période coïncide avec la crise socio-politique qu'a connu le pays.
-Depuis 2010, profitant de la stabilité politique, le pays a renoué avec la croissance et le développement.
+Sans suprise, le PIB par habitant de la Côte d'Ivoire est le plus élevé de l'espace UEMOA. C'est le pays le plus riche de cette zone économique et monétaire. On remarque que le PIB par habitant a baissé entre la fin des années 90 et 2010. Cette période coïncide avec la crise socio-politique qu'a connu le pays.
+Depuis 2010, profitant de la stabilité politique, le pays a renoué avec la croissance et le développement. </br>
+
+Le Bénin, le Burkina Faso et le Mali on vu leurs PIB par habitant croître de manière régulière durant la période 1990-2020. 
+
 
