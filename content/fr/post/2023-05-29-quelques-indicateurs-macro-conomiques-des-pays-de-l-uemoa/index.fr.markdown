@@ -85,7 +85,7 @@ Par exemple `'BF'` pour le Burkina Faso ou `c('BF', 'CI')` pour le Burkina Faso 
 
 ### Exemple d'application avec le PIB per capita des pays de l'UEMOA.
 
-L'UEMOA est zone monétaire constitué de 8 pays de l'Afrique de l'Ouest qui partage en commum une monnaie appelée `Franc de la Communauté Financière Afrique (Franc CFA)`. La banque centrale des Etats de l'Afrique de l'Ouest (BCEAO) est l'autorité qui gère cette monnaie. Nous allons télécharger les données sur le PIB par habitant de ces 8 pays et les visualiser graphiquement.
+L'Union économique et monétaire de l'Afrique de l'Ouest (UEMOA) est union monétaire constitué de 8 pays de l'Afrique de l'Ouest qui partagent une monnaie appelée `Franc de la Communauté Financière Afrique (Franc CFA)`. La banque centrale des Etats de l'Afrique de l'Ouest (BCEAO) est l'autorité qui gère cette monnaie. Nous allons télécharger les données sur le PIB par habitant de ces 8 pays et les visualiser graphiquement.
 
 
 ```r
@@ -128,4 +128,7 @@ p
 Sans suprise, le PIB par habitant de la Côte d'Ivoire est le plus élevé de l'espace UEMOA. C'est le pays le plus riche de cette zone économique et monétaire. On remarque que le PIB par habitant a baissé entre la fin des années 90 et 2010. Cette période coïncide avec la crise socio-politique qu'a connu le pays.
 Depuis 2010, profitant de la stabilité politique, le pays a renoué avec la croissance et le développement. </br>
 
-Le Bénin, le Burkina Faso et le Mali on vu leurs PIB par habitant croître de manière régulière durant la période 1990-2020.
+Le Bénin, le Burkina Faso et le Mali on vu leurs PIB par habitant croître de manière régulière durant la période 1990-2020. </br>
+A l'opposé, le PIB par habitant du Niger, du Togo et de la Guinée Bissau a évolué de manière erratique durant cette période.
+
+
