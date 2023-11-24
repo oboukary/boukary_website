@@ -9,13 +9,15 @@
   if(ClipboardJS.isSupported()) {
     $(document).ready(function() {
       var copyButton = "<button type='button' class='btn btn-primary btn-copy-ex' type = 'submit' title='Copier' aria-label='Copier dans le presse-papier' data-toggle='tooltip' data-placement='left' id='tooltip-left' data-trigger='hover' data-clipboard-copy><i class='far fa-copy'></i></button>";
-      
+     
        $(".chroma").wrap("<div class='sourceCode'> </div>");
-      
+     
+
       $("div.sourceCode").addClass("hasCopyButton");
+    
       // Insert copy buttons:
       $(copyButton).prependTo(".hasCopyButton");
-
+$("code.language-fallback").parent().parent().removeClass("hasCopyButton");
       // Initialize tooltips:
       $('.btn-copy-ex').tooltip({container: 'body'});
 
@@ -25,6 +27,8 @@
           return trigger.parentNode.textContent;
         }
       });
+      
+      
 
       clipboardBtnCopies.on('success', function(e) {
         changeTooltipMessage(e.trigger, 'Copié !');
@@ -36,9 +40,4 @@
       });
     });
   }
-  
-  // Identifier les <pre> fermant
-    $('pre').next("*:not(pre)").prev().addClass('last'); // Dernier <pre> de chaque groupe contigu de <pre>
-    $('pre').parent().each(function (){
-      $(this).children('pre').last().addClass('last');
-    }); // Si <pre> est le dernier enfant de son parent
+ 

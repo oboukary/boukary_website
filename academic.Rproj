@@ -2,7 +2,7 @@ Version: 1.0
 
 RestoreWorkspace: No
 SaveWorkspace: No
-AlwaysSaveHistory: Default
+AlwaysSaveHistory: No
 
 EnableCodeIndexing: Yes
 UseSpacesForTab: Yes
@@ -13,7 +13,3 @@ RnwWeave: Sweave
 LaTeX: pdfLaTeX
 
 BuildType: Website
-
-PythonType: system
-PythonVersion: 3.11.2
-PythonPath: C:/Users/ouedr/AppData/Local/Programs/Python/Python311/python.exe
